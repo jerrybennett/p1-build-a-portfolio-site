@@ -1,0 +1,148 @@
+/* Constrain Container Width */
+.container {
+  max-width: 970px;
+}
+
+/* Global Settings */
+h1, h4, h5 {
+font-family: 'Raleway', sans-serif;
+font-weight: 300;
+}
+
+h2, h3, h6 {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+}
+
+p, a {
+font-family: 'Bitter', serif;
+}
+
+a {
+  color: black;
+  padding: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FF533F;
+}
+
+a:visited {
+  color: #E4E4E4;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* Page Styling */
+
+#intro {
+  margin: 20px auto;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #888;
+}
+
+#projects {
+  margin-bottom: 40px;
+}
+
+#projects > div[class^="col"] > img {
+  box-shadow: 5px 5px 5px -1px rgba(0,0,0,0.58);
+}
+
+.grey {
+  color: #888;
+}
+
+/* Change Primary Button Color
+ with help from http://blog.koalite.com/bbg/ */
+
+.btn.sharp {
+  border-radius: 0;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #FC9A35;
+  border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active,
+.btn-primary.active, .open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #DB751C;
+  border-color: #D47420;
+}
+
+.btn-primary:active, .btn-primary.active, .open
+.dropdown-toggle.btn-primary {
+  background-image: none;
+  background-color: #DB751C;
+}
+
+.btn-primary.disabled, .btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover, .btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus, .btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active, .btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active, .btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #F58220;
+  border-color: #D47420;
+}
+
+.btn-primary .badge {
+  color: #F58220;
+  background-color: #ffffff;
+}
+
+#projects > div[class^="col"] > img {
+    margin: 20px 0 30px;
+  }
+
+footer {
+  margin-bottom: 40px;
+}
+
+/* Media Queries */
+
+/* Custom */
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  #projects > div[class^="col"] {
+    margin: 20px 0 30px;
+  }
+}
+
+@media only screen and (min-width : 411px) and (max-width : 474px) {
+  #intro h1 {
+    font-size: 2.1em;
+  }
+}
+
+/* Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Tablets */
+@media only screen and (min-width : 768px) {
+a {
+  font-size: .85em;
+ }
+}
+
+/* Desktops */
+@media only screen and (min-width : 992px) {
+a {
+  font-size: 1em;
+ }
+}
+
+/* Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
